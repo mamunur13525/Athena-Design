@@ -15,4 +15,9 @@ button{
     padding: 10px 20px;
     color: white;
     border-radius: 20px 00px ;
+    font-family: 'Montserrat', sans-serif;
+}
+button:hover{
+    background: linear-gradient(90deg,  rgba(10,179,229,1) 0%,rgba(26,213,190,1) 100%,);
+
 }

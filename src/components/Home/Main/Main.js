@@ -9,7 +9,7 @@ const Main = () => {
             <div className="container">
                 <div className="row py-5">
                     <div className="col-md-5 mt-5">
-                        <h1 className="display-2 font-weight-bold">Florence <br/> agency</h1>
+                        <h1 className="title">Florence <br/> agency</h1>
                         <p className="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam omnis iste ratione quos quod, deserunt dignissimos accusantium neque. Repellendus, possimus?</p>
                         <button>See Pricing</button>
                     </div>
