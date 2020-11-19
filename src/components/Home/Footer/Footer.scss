@@ -1,0 +1,53 @@
+footer{
+    .footer_h1{
+        font-weight: bolder;
+        font-size: 40px;
+        color: #535050;
+    margin-bottom: 18px;
+
+    font-family: 'Yeseva One', cursive;
+
+    }
+    .footer_para{
+        font-family: 'Montserrat', sans-serif;
+        color: #5350508f;
+    }
+    .input_box{
+        width: 650px;
+        margin: 4rem auto;
+        
+        position: relative;
+    }
+    .input_box input:focus,.input_box .footer_btn{
+        outline: none;
+    }
+    .input_box input{
+        padding: 18px;
+        width: 650px;
+        border-radius: 5px;
+        border: 1px solid #ddd;;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.233);
+    }
+    .input_box .footer_btn{
+        position: absolute;
+        right: 0;
+        
+        border-radius: 5px;
+        padding:10px 28px;
+        margin:10px;
+    }
+ .footer_logo {
+        margin: 35px 9px;
+        width: 20px;
+    }
+    ul{
+        list-style: none;
+
+    }
+    ul li{
+        font-weight: 500;
+        color: rgb(109, 109, 109);
+        margin-top:10px
+        
+    }
+}

@@ -1,8 +1,55 @@
-section .para {
-  color: #e6e6e6;
+section.wedo .wedo_title {
+  font-family: 'Yeseva One', cursive;
+  font-size: 48px;
 }
 
-section .image {
-  width: 100px !important;
+section.wedo .para {
+  color: #e6e6e6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+section.wedo .wedo_text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+section.wedo .image {
+  width: 70px !important;
+}
+
+section.wedo .para {
+  color: #a5a5a5;
+  margin-top: 12px;
+}
+
+section.wedo .row .col-md-3 {
+  border-radius: 70px 0px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  -webkit-transition: -webkit-box-shadow .3s;
+  transition: -webkit-box-shadow .3s;
+  transition: box-shadow .3s;
+  transition: box-shadow .3s, -webkit-box-shadow .3s;
+}
+
+section.wedo .row .col-md-3:hover {
+  -webkit-box-shadow: 0px 0px 50px  #6b51fd45;
+          box-shadow: 0px 0px 50px  #6b51fd45;
+}
+
+section.wedo .row .col-md-3.cran:hover {
+  -webkit-box-shadow: 0px 0px 50px  #1BD6BC45;
+          box-shadow: 0px 0px 50px  #1BD6BC45;
+}
+
+section.wedo .row .col-md-3.red:hover {
+  -webkit-box-shadow: 0px 0px 50px  #FF4E7045;
+          box-shadow: 0px 0px 50px  #FF4E7045;
+}
+
+section.wedo .row .col-md-3.begune:hover {
+  -webkit-box-shadow: 0px 0px 50px  #BB4EFF45;
+          box-shadow: 0px 0px 50px  #BB4EFF45;
 }
 /*# sourceMappingURL=Wedo.css.map */
