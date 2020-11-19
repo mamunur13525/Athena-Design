@@ -36,7 +36,7 @@ const Achievement = () => {
     return (
         <section className="container mt-5">
             <div className="row">
-                <div className="col-md-5">
+                <div className="col-md-5 col-12">
                     <h2>Our Achievements</h2>
                     <p>
                         It is a long established fact that a reader will be distracted by 
@@ -45,7 +45,7 @@ const Achievement = () => {
                         distribution of letter.
                     </p>
                 </div>
-                <div className="col-md-7 row">
+                <div className="col-md-7 col-12 row">
 {
     achievementData.map(data => <AchievementCard key={data.id} data={data} />)
 }

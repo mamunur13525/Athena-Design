@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div>
             <div className="container">
-          <nav class="navbar navbar-expand-lg navbar-light py-4" >
+          <nav class="navbar navbar-expand-md navbar-light py-4" >
                 <img className="logo" src={logo} alt="logo"/>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

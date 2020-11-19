@@ -5,7 +5,7 @@ const DedicatedTeam = () => {
         <section className='container my-5'>
             <h1 className='text-center'>Choose Your Dedicated Team</h1>
             <div className="row my-3">
-                <div className="col-md-4">
+                <div className="col-md-4 col-12">
                     <div className="">
                         <h1>$199</h1>
                         <p>For Basic</p>
@@ -19,7 +19,7 @@ const DedicatedTeam = () => {
                         <p>24/7 Support</p>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 col-12">
                     <div className="">
                         <h1>$399</h1>
                         <p>For Preferred</p>
@@ -33,7 +33,7 @@ const DedicatedTeam = () => {
                         <p>24/7 Support</p>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 col-12">
                     <div className="">
                         <h1>$599</h1>
                         <p>For Elite</p>
