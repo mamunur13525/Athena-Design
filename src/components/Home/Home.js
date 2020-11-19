@@ -1,4 +1,6 @@
 import React from 'react';
+import Achievement from './Achievement/Achievement';
+import DedicatedTeam from './DedicatedTeam/DedicatedTeam';
 import Main from './Main/Main';
 
 import Navbar from './Navbar/Navbar';
@@ -10,6 +12,9 @@ const Home = () => {
           <Navbar></Navbar>  
           <Main></Main>
           <Wedo></Wedo>
+
+          <Achievement />
+          <DedicatedTeam />
         </div>
     );
 };

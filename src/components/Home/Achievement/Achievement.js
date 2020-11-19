@@ -1,8 +1,8 @@
 import React from 'react';
-import logo1 from "../Illustration/happy@2x.png";
-import logo2 from "../Illustration/marketing@2x.png";
-import logo3 from "../Illustration/surface1@2x.png";
-import logo4 from "../Illustration/transportation@2x.png";
+import logo1 from "../../../Illustration/happy@2x.png";
+import logo2 from "../../../Illustration/marketing@2x.png";
+import logo3 from "../../../Illustration/surface1@2x.png";
+import logo4 from "../../../Illustration/transportation@2x.png";
 import AchievementCard from './AchievementCard/AchievementCard';
 
 const Achievement = () => {
