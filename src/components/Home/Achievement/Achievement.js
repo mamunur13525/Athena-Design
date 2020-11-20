@@ -12,7 +12,7 @@ const Achievement = () => {
     return (
         <section id="achievement" className="container mt-5 py-5">
             <div className="row d-flex justify-content-between">
-                <div className="col-md-5 mt-5">
+                <div className="col-lg-6 col-md-12 mt-5">
                     <h2 className="achievement_title">Our Achievements</h2>
                     <p className="achievement-para">
                         It is a long established fact that a reader will be distracted by 
@@ -21,8 +21,9 @@ const Achievement = () => {
                         distribution of letter.
                     </p>
                 </div>
-                <div className="col-md-6 ml-5 row">
-                    <div className="col-md-6">
+                <div className="col-lg-6 col-md-12 ">
+<div className="row">
+                    <div className="col-md-6 ">
                         <div className="d-flex box first">
                               <img className="img-fluid box-img" src={logo1} alt="face"/>
                             <div>
@@ -58,6 +59,7 @@ const Achievement = () => {
                             <p className="name">Running Projects</p>
                         </div>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>

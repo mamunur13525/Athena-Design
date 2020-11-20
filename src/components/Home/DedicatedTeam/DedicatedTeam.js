@@ -10,7 +10,7 @@ const DedicatedTeam = () => {
                     <div className="">
                         <h1 className="price">$199</h1>
                         <p className="basic">For Basic</p>
-                   
+
                         <p>HomePage</p>
                         <p>No Inner Page</p>
                         <p>Asset Files</p>
@@ -21,37 +21,37 @@ const DedicatedTeam = () => {
                         <button className="price_btn">Order Now</button>
                     </div>
                 </div>
-                <div className="col-md-3 price_box price_box_two">
-                    <div className="">
-                        <h1 className="price">$399</h1>
-                        <p  className="basic">For Preferred</p>
-                       
-                        <p>HomePage</p>
-                        <p>4 Inner Page</p>
-                        <p>Asset Files</p>
-                        <p>Source Files</p>
-                        <p>Free Stock Photos</p>
-                        <p>20 Days Free Support</p>
-                        <p>24/7 Support</p>
-                          <button className="price_btn">Order Now</button>
+                    <div className="col-md-3 price_box price_box_two">
+                        <div className="">
+                            <h1 className="price">$399</h1>
+                            <p className="basic">For Preferred</p>
+
+                            <p>HomePage</p>
+                            <p>4 Inner Page</p>
+                            <p>Asset Files</p>
+                            <p>Source Files</p>
+                            <p>Free Stock Photos</p>
+                            <p>20 Days Free Support</p>
+                            <p>24/7 Support</p>
+                            <button className="price_btn">Order Now</button>
+                        </div>
                     </div>
-                </div>
-                <div className="col-md-3 price_box">
-                    <div className="">
-                        <h1 className="price">$599</h1>
-                        <p  className="basic">For Elite</p>
-                        
-                        <p>HomePage</p>
-                        <p>8 Inner Page</p>
-                        <p>Asset Files</p>
-                        <p>Source Files</p>
-                        <p>Free Stock Photos</p>
-                        <p>30 Days Free Support</p>
-                        <p>24/7 Support</p>
-                          <button className="price_btn">Order Now</button>
+                        <div className="col-md-3 price_box">
+                            <div className="">
+                                <h1 className="price">$599</h1>
+                                <p className="basic">For Elite</p>
+
+                                <p>HomePage</p>
+                                <p>8 Inner Page</p>
+                                <p>Asset Files</p>
+                                <p>Source Files</p>
+                                <p>Free Stock Photos</p>
+                                <p>30 Days Free Support</p>
+                                <p>24/7 Support</p>
+                                <button className="price_btn">Order Now</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
         </section>
     );
 };

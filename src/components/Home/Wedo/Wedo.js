@@ -12,23 +12,23 @@ const Wedo = () => {
             <p className='para'>Our main focus is to make the User Experience very <br/> simple and easy. Simplicity is our Strength</p>
             <div className="container">
                 <div className="row mt-5">
-                    <div className="col-md-3">
-                        <img className="image" src={img1} alt=""/>
+                    <div className="col-sm-12 col-md-6 col-lg-3">
+                        <img className="image img-fluid" src={img1} alt=""/>
                         <h4 className="mt-4 mb-2 wedo_text">Experience Design</h4>
                         <p className="para">The point of using Lorem<br/> ipsum is that it has a more-or-<br/> less normal</p>
                     </div>
-                    <div className="col-md-3 cran">
-                        <img className="image" src={img2} alt=""/>
+                    <div className="col-sm-12 col-md-6 col-lg-3 cran">
+                        <img className="image img-fluid" src={img2} alt=""/>
                         <h4 className="mt-4 mb-2 wedo_text">Experience Design</h4>
                         <p className="para">The point of using Lorem<br/> ipsum is that it has a more-or-<br/> less normal</p>
                     </div>
-                    <div className="col-md-3 red">
-                        <img className="image" src={img3} alt=""/>
+                    <div className="col-sm-12 col-md-6 col-lg-3 red">
+                        <img className="image img-fluid" src={img3} alt=""/>
                         <h4 className="mt-4 mb-2 wedo_text">Experience Design</h4>
                         <p className="para">The point of using Lorem<br/> ipsum is that it has a more-or-<br/> less normal</p>
                     </div>
-                    <div className="col-md-3 begune">
-                        <img className="image" src={img4} alt=""/>
+                    <div className="col-sm-12 col-md-6 col-lg-3 begune">
+                        <img className="image img-fluid" src={img4} alt=""/>
                         <h4 className="mt-4 mb-2 wedo_text">Experience Design</h4>
                         <p className="para">The point of using Lorem<br/> ipsum is that it has a more-or-<br/> less normal</p>
                     </div>

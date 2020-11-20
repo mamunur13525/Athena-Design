@@ -21,7 +21,7 @@ const Footer = () => {
             
             <div className=" py-5 container footer_last">
                 <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-4 col-sm-6">
                     <img  className="w-25 img-fluid" src={logo} alt=""/>
                     <div className="d-flex">
                         <img className="footer_logo" src={facebook} alt=""/>
@@ -31,14 +31,14 @@ const Footer = () => {
                         
                     </div>
                 </div>
-                <div className="col-md-2 ml-5">
+                <div className="col-md-2 col-sm-6">
                     <ul>
                         <li>Features</li>
                         <li>Enterprise</li>
                         <li>Pricing</li>
                     </ul>
                 </div>
-                <div className="col-md-2">
+                <div className="col-md-2 col-sm-6">
                 <ul>
                         <li>Blog</li>
                         <li>Help Center</li>
@@ -46,7 +46,7 @@ const Footer = () => {
                         <li>Status</li>
                     </ul>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-3 col-sm-6">
                 <ul>
                         <li>About Us</li>
                         <li>Term of Service</li>
