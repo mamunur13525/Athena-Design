@@ -19,17 +19,17 @@ const Wedo = () => {
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-3 cran">
                         <img className="image img-fluid" src={img2} alt=""/>
-                        <h4 className="mt-4 mb-2 wedo_text">Experience Design</h4>
+                        <h4 className="mt-4 mb-2 wedo_text">InterFace Design</h4>
                         <p className="para">The point of using Lorem<br/> ipsum is that it has a more-or-<br/> less normal</p>
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-3 red">
                         <img className="image img-fluid" src={img3} alt=""/>
-                        <h4 className="mt-4 mb-2 wedo_text">Experience Design</h4>
+                        <h4 className="mt-4 mb-2 wedo_text">Prototype</h4>
                         <p className="para">The point of using Lorem<br/> ipsum is that it has a more-or-<br/> less normal</p>
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-3 begune">
                         <img className="image img-fluid" src={img4} alt=""/>
-                        <h4 className="mt-4 mb-2 wedo_text">Experience Design</h4>
+                        <h4 className="mt-4 mb-2 wedo_text">Illustration</h4>
                         <p className="para">The point of using Lorem<br/> ipsum is that it has a more-or-<br/> less normal</p>
                     </div>
                 </div>

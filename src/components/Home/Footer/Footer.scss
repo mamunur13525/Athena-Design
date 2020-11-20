@@ -19,7 +19,7 @@ footer{
         color: #5350508f;
     }
     .input_box{
-        width: 650px;
+        width: 50%;
         margin: 4rem auto;
         
         position: relative;
@@ -29,7 +29,7 @@ footer{
     }
     .input_box input{
         padding: 18px;
-        width: 650px;
+        width: 100%;
         border-radius: 5px;
         border: 1px solid #ddd;;
         box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.233);
@@ -56,4 +56,35 @@ footer{
         margin-top:10px
         
     }
+}
+@media (max-width: 1000px){
+    footer .input_box{
+        width: 70%;
+    }
+}
+@media (max-width: 700px){
+    footer .input_box{
+        width: 75%;
+        .footer_btn{
+            position: absolute;
+            right: 0;
+            
+            border-radius: 5px;
+            padding:10px 13px;
+            margin:10px;
+        }
+    }
+ 
+@media (max-width: 580px){
+}
+ .col-sm-6{ width: 50%!important;}
+
+}
+
+@media (max-width: 500px){
+    footer .input_box .footer_btn{
+        position: inherit!important;
+       
+    }
+
 }
