@@ -12,22 +12,22 @@ const Wedo = () => {
             <p className='para'>Our main focus is to make the User Experience very <br/> simple and easy. Simplicity is our Strength</p>
             <div className="container">
                 <div className="row mt-5">
-                    <div className="col-sm-12 col-md-6 col-lg-3">
+                    <div className="col-sm-12 col-md-6 col-lg-3 wedoBox">
                         <img className="image img-fluid" src={img1} alt=""/>
                         <h4 className="mt-4 mb-2 wedo_text">Experience Design</h4>
                         <p className="para">The point of using Lorem<br/> ipsum is that it has a more-or-<br/> less normal</p>
                     </div>
-                    <div className="col-sm-12 col-md-6 col-lg-3 cran">
+                    <div className="col-sm-12 col-md-6 col-lg-3 wedoBox cran">
                         <img className="image img-fluid" src={img2} alt=""/>
                         <h4 className="mt-4 mb-2 wedo_text">InterFace Design</h4>
                         <p className="para">The point of using Lorem<br/> ipsum is that it has a more-or-<br/> less normal</p>
                     </div>
-                    <div className="col-sm-12 col-md-6 col-lg-3 red">
+                    <div className="col-sm-12 col-md-6 col-lg-3 wedoBox red">
                         <img className="image img-fluid" src={img3} alt=""/>
                         <h4 className="mt-4 mb-2 wedo_text">Prototype</h4>
                         <p className="para">The point of using Lorem<br/> ipsum is that it has a more-or-<br/> less normal</p>
                     </div>
-                    <div className="col-sm-12 col-md-6 col-lg-3 begune">
+                    <div className="col-sm-12 col-md-6 col-lg-3 wedoBox begune">
                         <img className="image img-fluid" src={img4} alt=""/>
                         <h4 className="mt-4 mb-2 wedo_text">Illustration</h4>
                         <p className="para">The point of using Lorem<br/> ipsum is that it has a more-or-<br/> less normal</p>
