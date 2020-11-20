@@ -1,0 +1,51 @@
+#achievement{
+
+
+.achievement_title{
+    font-family: 'Yeseva One', cursive;
+        font-size: 45px;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+   
+    .box{
+        border-radius: 50px 0px;
+        box-shadow: 0px 0px 50px #1cd8b932;
+        margin: 10px 0px;
+        color:#707070 ;
+    }
+    .achievement-para{
+        font-family: 'Montserrat', sans-serif;
+        color:#707070;
+    }
+    .first{
+       
+    background: linear-gradient(90deg, #0ab3e5 0%, #1ad5be 100%);
+        color: white;
+
+    }
+    .first,.last{
+        border-radius: 0px  50px!important;
+    }
+    .d-flex.box {
+        padding: 15px;
+    }
+    .box .count{
+        font-weight: bolder;
+      
+    }
+    .first .name{
+        color: rgba(255, 255, 255, 0.767)!important;
+    }
+    .box .name{
+        color: rgb(156, 156, 156);
+    }
+  
+    .box-img{
+        width: 40px;
+        height: 40px;
+        margin:10px;
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+} 

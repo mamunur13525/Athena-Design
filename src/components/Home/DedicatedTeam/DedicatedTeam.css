@@ -1,0 +1,58 @@
+.price_box {
+  margin: 50px 30px;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.205);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.205);
+  padding: 40px 10px 40px;
+  font-weight: 500;
+  color: #535050;
+  -webkit-transition: border .3s;
+  transition: border .3s;
+  border: 2px solid #ffffff;
+}
+
+.price_btn {
+  opacity: 0;
+  margin-top: 3rem;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+}
+
+.price_box_two .price_btn {
+  opacity: 1;
+}
+
+.price_box:hover {
+  border: 3px solid #5df0d7;
+}
+.price_box_two{
+  border: 3px solid #5df0d7!important;
+
+}
+.dedicated_title{
+  font-family: 'Yeseva One', cursive;
+}
+.price_box:hover .price_btn {
+  opacity: 1;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 45px;
+  color: #535050;
+}
+
+.basic {
+  color: rgba(110, 110, 110, 0.867);
+  font-weight: 500;
+}
+
+.basic::after {
+  content: '';
+  height: 2px;
+  width: 70%;
+  display: block;
+  background-color: #8ee0dc;
+  margin: auto;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=DedicatedTeam.css.map */

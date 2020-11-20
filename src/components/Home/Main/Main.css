@@ -1,6 +1,12 @@
+main .title {
+  font-family: 'Yeseva One', cursive;
+  font-size: 80px;
+}
+
 main .lead {
-  font-size: 15px;
-  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
   color: #aaaaaa;
 }
 /*# sourceMappingURL=Main.css.map */
