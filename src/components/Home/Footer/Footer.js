@@ -9,7 +9,8 @@ import { faDirections } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className="py-5
+        " id="contact">
             <div className="footer_title text-center">
                 <h1 className="footer_h1">Get your design right, right now</h1>
                 <p className="footer_para">Be the first know out latest offers and updates!</p>
@@ -20,10 +21,10 @@ const Footer = () => {
             </div>
             
             <div className=" py-5 container footer_last">
-                <div className="row">
-                <div className="col-md-4 col-sm-6">
+                <div className="row footer_row">
+                <div className="col-md-4 col-sm-12">
                     <img  className="w-25 img-fluid" src={logo} alt=""/>
-                    <div className="d-flex">
+                    <div className="d-flex footer_logo">
                         <img className="footer_logo" src={facebook} alt=""/>
                         <img className="footer_logo" src={twitter} alt=""/>
                         <img className="footer_logo" src={linkedin} alt=""/>
@@ -31,23 +32,23 @@ const Footer = () => {
                         
                     </div>
                 </div>
-                <div className="col-md-2 col-sm-6">
-                    <ul>
+                <div className="col-md-2 col-sm-12">
+                    <ul className="footer_ul">
                         <li>Features</li>
                         <li>Enterprise</li>
                         <li>Pricing</li>
                     </ul>
                 </div>
-                <div className="col-md-2 col-sm-6">
-                <ul>
+                <div className="col-md-2 col-sm-12">
+                <ul className="footer_ul">
                         <li>Blog</li>
                         <li>Help Center</li>
                         <li>Contact Us</li>
                         <li>Status</li>
                     </ul>
                 </div>
-                <div className="col-md-3 col-sm-6">
-                <ul>
+                <div className="col-md-3 col-sm-12">
+                <ul className="footer_ul">
                         <li>About Us</li>
                         <li>Term of Service</li>
                         <li>Security</li>

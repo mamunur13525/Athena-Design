@@ -1,10 +1,17 @@
 import React from 'react';
 import './Running.css';
 import img from '../../../icon/20[Converted]@2x.png';
+import imgBg from '../../../icon/Group 46@2x.png';
 
 const Running = () => {
     return (
         <section id="running" className="my-5 container">
+            <div className="bg-img-running">
+                   <img className="bg-img" src={imgBg} alt=""/>
+
+            </div>
+            <div className="circle-running-one"></div>
+            <div className="circle-running-two"></div>
             <div className="row">
                 <div className="col-md-5">
                     <img className="img-fluid" src={img} alt="" />

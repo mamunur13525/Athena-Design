@@ -10,3 +10,9 @@ main{
         color: rgb(170, 170, 170);
     }
 }
+@media(max-width:768px){
+    main .title {
+        font-family: 'Yeseva One', cursive;
+        font-size: 60px;
+    }
+}
