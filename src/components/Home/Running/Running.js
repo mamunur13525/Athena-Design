@@ -9,7 +9,7 @@ const Running = () => {
                 <div className="col-md-5">
                     <img className="img-fluid" src={img} alt="" />
                 </div>
-                <div className="col-md-7 mt-5 pt-5">
+                <div className="col-md-7 ">
                     <div className="running_text">
                         <h1 className="running_title">Stay Running & Projects</h1>
                         <p className="running_para">

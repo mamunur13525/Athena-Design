@@ -3,10 +3,10 @@ import './DedicatedTeam.css';
 
 const DedicatedTeam = () => {
     return (
-        <section className='container my-5 py-5'>
+        <section  className='container my-5 py-5'>
             <h1 className='text-center mb-5 dedicated_title'>Choose Your Dedicated Team</h1>
             <div className="row my-3 text-center d-flex justify-content-center">
-                <div className="col-md-3 price_box">
+                <div className="col-md-4 col-lg-3 price_box">
                     <div className="">
                         <h1 className="price">$199</h1>
                         <p className="basic">For Basic</p>
@@ -21,7 +21,7 @@ const DedicatedTeam = () => {
                         <button className="price_btn">Order Now</button>
                     </div>
                 </div>
-                    <div className="col-md-3 price_box price_box_two">
+                    <div className="col-md-4 col-lg-3 price_box price_box_two">
                         <div className="">
                             <h1 className="price">$399</h1>
                             <p className="basic">For Preferred</p>
@@ -36,7 +36,7 @@ const DedicatedTeam = () => {
                             <button className="price_btn">Order Now</button>
                         </div>
                     </div>
-                        <div className="col-md-3 price_box">
+                        <div className="col-md-4 col-lg-3 price_box">
                             <div className="">
                                 <h1 className="price">$599</h1>
                                 <p className="basic">For Elite</p>
