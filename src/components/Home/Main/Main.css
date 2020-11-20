@@ -9,4 +9,11 @@ main .lead {
   font-weight: 400;
   color: #aaaaaa;
 }
+
+@media (max-width: 768px) {
+  main .title {
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+  }
+}
 /*# sourceMappingURL=Main.css.map */

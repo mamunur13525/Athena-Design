@@ -7,7 +7,7 @@ import './Wedo.css';
 
 const Wedo = () => {
     return (
-        <section className="py-5 text-center wedo">
+        <section className="py-5 text-center wedo" id="services">
             <h1 className="display-5 wedo_title">What we do</h1>
             <p className='para'>Our main focus is to make the User Experience very <br/> simple and easy. Simplicity is our Strength</p>
             <div className="container">

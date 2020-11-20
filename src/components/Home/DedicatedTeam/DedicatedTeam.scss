@@ -7,6 +7,7 @@
     color: #535050;
     transition: border .3s;
     border: 2px solid #ffffff;
+    background: white;
 }
 .price_btn{
     opacity: 0;
@@ -23,7 +24,15 @@
     .price_btn{
         opacity: 1;
     }
-}
+    
+    .dedicated-team-bg-image {
+        position: absolute;
+        left: -79rem;
+        margin-top: -30rem;
+        /* top: 0; */
+        /* width: 100px; */
+    }
+
 .price_box:hover{
     .price_btn{
         opacity: 1;

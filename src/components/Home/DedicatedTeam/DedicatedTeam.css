@@ -8,29 +8,38 @@
   -webkit-transition: border .3s;
   transition: border .3s;
   border: 2px solid #ffffff;
+  background: white;
 }
 
 .price_btn {
   opacity: 0;
   margin-top: 3rem;
-  -webkit-transition: opacity .3s;
-  transition: opacity .3s;
 }
 
-.price_box_two .price_btn {
+.dedicated_title {
+  font-family: 'Yeseva One', cursive;
+}
+
+.price_box_two {
+  border: 2px solid #5df0d7 !important;
+}
+
+.price_btn {
   opacity: 1;
 }
 
-.price_box:hover {
-  border: 3px solid #5df0d7;
+.dedicated-team-bg-image {
+  position: absolute;
+  left: -79rem;
+  margin-top: -30rem;
+  /* top: 0; */
+  /* width: 100px; */
 }
-.price_box_two{
-  border: 3px solid #5df0d7!important;
 
+.price_box:hover {
+  border: 2px solid #5df0d7;
 }
-.dedicated_title{
-  font-family: 'Yeseva One', cursive;
-}
+
 .price_box:hover .price_btn {
   opacity: 1;
 }

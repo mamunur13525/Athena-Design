@@ -19,6 +19,40 @@
   color: #a5a5a5;
 }
 
+#running .bg-img-running {
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+}
+
+#running .bg-img {
+  margin-left: 49rem;
+  margin-top: -13rem;
+  width: 53rem;
+}
+
+#running .circle-running-one {
+  background: blue;
+  width: 50px;
+  position: absolute;
+  height: 50px;
+  margin-left: 6rem;
+  -webkit-filter: blur(17px);
+          filter: blur(17px);
+}
+
+#running .circle-running-two {
+  background: #1CD8BA;
+  width: 27px;
+  position: absolute;
+  height: 50px;
+  margin-left: 28rem;
+  margin-top: 27rem;
+  opacity: .6;
+  -webkit-filter: blur(17px);
+          filter: blur(17px);
+}
+
 @media (max-width: 775px) {
   #running .running_text {
     position: inherit;

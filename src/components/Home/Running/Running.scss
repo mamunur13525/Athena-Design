@@ -1,4 +1,7 @@
 #running{
+    
+
+
 .running_text{
         position: absolute;
         top: 50%;
@@ -15,10 +18,36 @@
     .running_para{
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
-        // margin-bottom: 3rem;
         color: #a5a5a5;
     }
-   
+    .bg-img-running {
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+    }
+        .bg-img {
+        margin-left: 39rem;
+        margin-top: -10rem;
+        width: 69rem;
+    }
+    .circle-running-one {
+        background: blue;
+        width: 50px;
+        position: absolute;
+        height: 50px;
+        margin-left: 6rem;
+        filter: blur(17px);
+    }
+   .circle-running-two{
+    background: #1CD8BA;
+    width: 27px;
+    position: absolute;
+    height: 50px;
+    margin-left: 28rem;
+    margin-top: 27rem;
+    opacity: .6;
+    filter: blur(17px);
+   }
 }
 @media (max-width: 775px){
     #running{
